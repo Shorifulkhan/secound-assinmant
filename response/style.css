@@ -1,0 +1,58 @@
+@media only screen and (max-width:600px){
+
+    main{
+      justify-content: center;
+      align-items: center;
+    }
+.banner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.banner-ii img{
+    justify-content: center;
+    width: 100%;
+}
+.banner-i h1{
+    font-size: 40px;
+}
+.banner-i{
+    text-align: center;
+    position: relative;
+}
+.continer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.sidebar{
+    background-color: aliceblue;
+    width: 90%;
+    padding-left: -30px;
+}
+.all-match, .all-blogs{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+}
+hr{
+    border: 1px solid gray;
+    padding:0 40% 0 40% ;
+}
+nav ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.view{
+    display: none;
+}
+}
